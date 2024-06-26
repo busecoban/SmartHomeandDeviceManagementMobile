@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = CleanArchitecture.Core
+build_property.ProjectDir = /Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/

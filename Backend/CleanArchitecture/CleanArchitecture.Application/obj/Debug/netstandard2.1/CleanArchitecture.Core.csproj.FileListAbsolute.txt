@@ -1,0 +1,10 @@
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/bin/Debug/netstandard2.1/CleanArchitecture.Core.deps.json
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/bin/Debug/netstandard2.1/CleanArchitecture.Core.dll
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/bin/Debug/netstandard2.1/CleanArchitecture.Core.pdb
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.csproj.AssemblyReference.cache
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.AssemblyInfoInputs.cache
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.AssemblyInfo.cs
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.csproj.CoreCompileInputs.cache
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.dll
+/Users/busecoban/Desktop/Backend/CleanArchitecture/CleanArchitecture.Application/obj/Debug/netstandard2.1/CleanArchitecture.Core.pdb

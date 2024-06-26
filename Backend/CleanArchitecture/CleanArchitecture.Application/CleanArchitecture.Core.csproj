@@ -1,0 +1,76 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>1.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+    <PackageReference Include="FluentValidation" Version="9.1.2" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="9.1.2" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="System.Text.Json" Version="4.7.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Features\Homes\" />
+    <None Remove="Features\Homes\Commands\" />
+    <None Remove="Features\Homes\Commands\CreateHome\" />
+    <None Remove="Features\Homes\Commands\UpdateHome\" />
+    <None Remove="Features\Homes\Queries\" />
+    <None Remove="Features\Homes\Queries\GetAllHomes\" />
+    <None Remove="Features\Homes\Commands\DeleteHomeById\" />
+    <None Remove="Features\Rooms\" />
+    <None Remove="Features\Rooms\Commands\" />
+    <None Remove="Features\Rooms\Commands\CreateRoom\" />
+    <None Remove="Features\Rooms\Commands\DeleteRoomById\" />
+    <None Remove="Features\Rooms\Commands\UpdateRoom\" />
+    <None Remove="Features\Rooms\Queries\" />
+    <None Remove="Features\Rooms\Queries\GetAllRooms\" />
+    <None Remove="Features\Homes\Queries\GetHomeById\" />
+    <None Remove="Features\Rooms\Queries\GetRoomById\" />
+    <None Remove="Features\Devices\Commands\" />
+    <None Remove="Features\Users\" />
+    <None Remove="Features\Devices\Queries\" />
+    <None Remove="Features\Devices\Queries\GetAllDevices\" />
+    <None Remove="Features\Devices\Queries\GetAllDeviceById\" />
+    <None Remove="Features\Devices\Commands\CreateDevice\" />
+    <None Remove="Features\Devices\Commands\DeleteDeviceById\" />
+    <None Remove="Features\Devices\Commands\UpdateDevice\" />
+    <None Remove="Features\Homes\Queries\GetAllHomesByOwnerId\" />
+    <None Remove="Features\Rooms\Queries\GetAllRoomsByHomeId\" />
+    <None Remove="Features\Devices\Queries\GetAllDevicesByRoomId\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Features\Homes\" />
+    <Folder Include="Features\Homes\Commands\" />
+    <Folder Include="Features\Homes\Commands\CreateHome\" />
+    <Folder Include="Features\Homes\Commands\UpdateHome\" />
+    <Folder Include="Features\Homes\Queries\" />
+    <Folder Include="Features\Homes\Queries\GetAllHomes\" />
+    <Folder Include="Features\Homes\Commands\DeleteHomeById\" />
+    <Folder Include="Features\Rooms\" />
+    <Folder Include="Features\Rooms\Commands\" />
+    <Folder Include="Features\Rooms\Commands\CreateRoom\" />
+    <Folder Include="Features\Rooms\Commands\DeleteRoomById\" />
+    <Folder Include="Features\Rooms\Commands\UpdateRoom\" />
+    <Folder Include="Features\Rooms\Queries\" />
+    <Folder Include="Features\Rooms\Queries\GetAllRooms\" />
+    <Folder Include="Features\Homes\Queries\GetHomeById\" />
+    <Folder Include="Features\Rooms\Queries\GetRoomById\" />
+    <Folder Include="Features\Devices\Commands\" />
+    <Folder Include="Features\Users\" />
+    <Folder Include="Features\Devices\Queries\" />
+    <Folder Include="Features\Devices\Queries\GetAllDevices\" />
+    <Folder Include="Features\Devices\Queries\GetAllDeviceById\" />
+    <Folder Include="Features\Devices\Commands\CreateDevice\" />
+    <Folder Include="Features\Devices\Commands\DeleteDeviceById\" />
+    <Folder Include="Features\Devices\Commands\UpdateDevice\" />
+    <Folder Include="Features\Homes\Queries\GetAllHomesByOwnerId\" />
+    <Folder Include="Features\Rooms\Queries\GetAllRoomsByHomeId\" />
+    <Folder Include="Features\Devices\Queries\GetAllDevicesByRoomId\" />
+  </ItemGroup>
+</Project>
